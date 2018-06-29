@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/editTextRecipe"
-            android:layout_marginStart="82dp"
+            android:layout_marginStart="85dp"
             android:layout_marginTop="5dp"
             android:ems="10"
             android:inputType="textMultiLine"
@@ -59,12 +59,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/editTextIngredient"
-            android:layout_marginStart="82dp"
+            android:layout_marginStart="85dp"
             android:layout_marginTop="5dp"
             android:ems="10"
             android:inputType="textMultiLine"
             android:lines="8"
-            android:minLines="2"  />
+            android:minLines="2" />
 
         <TextView
             android:id="@+id/textView3"
