@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         mydb = new DBHelper(this);
         ArrayList array_list = mydb.getAllRecipes();
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, array_list);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, array_list);
 
         obj = (ListView) findViewById(R.id.listView1);
         obj.setAdapter(adapter);
